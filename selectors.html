@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/week%202/02-selectors.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+
+   <link rel="stylesheet" href="./selectors_files/css-selectors.css">
+        
+    
+</head>
+<body>
+    <section id="explanation">
+        <div class="block-01">
+          <h1>Hello</h1>
+          <p>
+              If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.
+          </p>
+          </div>
+          <div class="block-02">
+            <h2>Germany is beautiful </h2>
+            <p>
+                There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle
+            </p>
+          </div>
+          <div class="block-03">
+        <h2>Hello to the world</h2>
+       
+            Education is important 
+           </div>
+           <div class="block-04">
+            <h2>WHERE ARE YOU</h2>
+
+          
+
+
+        <ul>
+            <li>Hello</li>
+            <li>Yello</li>
+            
+        </ul></div>
+        <div class="block-05">
+            <h2>Hello</h2>
+            <h1>YES</h1>
+            <p>
+              Hello
+            </p>
+            <p>
+                There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle
+            </p>
+            
+              <li>Hello</li>
+              <li>Hello</li>
+              <li>Hello</li>
+              
+             
+            
+          </div>
+          <div class="block-06">
+
+            <h2>Pseudo-Class Selectors for Position</h2>
+            <p>
+                There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle
+            </p>
+            <p>Some examples of position pseudo classes are:</p>
+            <ul>
+              <li>How are you</li>
+              <li>Where are you</li>
+              
+            </ul>
+          </div>
+          </section>
+          <section id="examples">
+            <div id="welcome">
+              <h1 class="primary-heading">Welcome</h1>
+              <p>
+                  There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle
+              </p>
+            </div>
+        
+            <div id="about">
+              <h2 class="Where">OK</h2>
+              <p class="here"> YES</p>
+              <p id="school">Home</p>
+            </div>
+            <div id="about">
+              <h1>Welcome</h1>
+              <p>
+                  There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle
+            </p></div>
+            <hr>
+            <div id="descending-combinator">
+              <p>Hello</p>
+              <h2>Hello</h2>
+              <div>
+                <p>Hello</p>
+            </div>
+            </div>
+            <hr>
+            <div id="sibling-combinator">
+                <div class="sibling">
+                  <p>Hello</p>
+                </div>
+                <p>Hello</p>
+        <h3>Hello</h3>
+        <p>Hello</p>
+      </div>
+      <hr>
+     
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</section></body></html>
